@@ -21,7 +21,7 @@ API_ID = int(getenv("API_ID", "29705318"))
 API_HASH = getenv("API_HASH", "3e2781d669267ba9165147f70110cc4e")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "6058318796:AAF-2f15wrc8cAQ4AnZSzPyPoh4M2uIm-Ag")
+BOT_TOKEN = getenv("BOT_TOKEN", "6299367094:AAEVHlgmKPbslEm2fpQc0NbPkSegoR_v2q4")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://moon:music@cluster0.6dpesyn.mongodb.net/?retryWrites=true&w=majority")
@@ -56,7 +56,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/TheTeamScary/MooN",
+    "https://github.com/NomoreLakshya/MooN",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -68,7 +68,7 @@ SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/ScaryNetwork"
 )  # Example:- https://t.me/TheYukki
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/ScaryHelp"
+    "SUPPORT_GROUP", "https://t.me/Chat_ixz"
 )  # Example:- https://t.me/YukkiSupport
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
@@ -100,7 +100,7 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "3"))
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/TheTeamScary/MooN")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/NomoreLakshya/MooN")
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
@@ -138,7 +138,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 SET_CMDS = getenv("SET_CMDS", False)
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", "AQCDUQGMJaRzJ93r-MFvGXO3okzu1uZ_AoXBwYa3Or3d3RxQF0u3NS-87-VjbGhOzP2ASrX0oGPDK_hqwo9oDZSTF2u-H3JPbdQ5tks2qoGQD0v5hVadRB83e1S2YtUMJ3zAKfykxE-kSTt_mMJv-vNZ9yDvvUcKDeLnQcyVZRA0OBVYLVUnry2NWcTVQ4cxeoql-TZ_5LZfukIkekZxe0rwdtnKTvWSGiFraodsFHY3XO5vA65D46Q4qCgSeoFl3hD9m2Nt7Irzsob7rPgQ9VqfNLRif3q3q5rQM7liYdwnELPhYDNOlQHy1YhRxRE5qUXbXR19-1crQuvvwBmWzcMbAAAAAVV7HSMA")
+STRING1 = getenv("STRING_SESSION", "AQAGv23fW2Y138e5emhT1KLWsXjcMDIBUg1b1i6kMH8NgnQ-vDJDcrhTeNIWRZonF5jGoZsLW6grLcst1nUmRJZ1KU9zxWxgLT6FglBvsvnl-BEIo-Q7e7giA0iUgkMoI9OA1DV_RYW6YHlexOSkdBuOFjS3aMo9gXIlFzcn_cSJp5LKqzy-4XchbLjSibh3Jmg2cC9KVEy5UOt7wRocHcEuGJqAW6p7AV919CCVj-9Cu8VDid_eBE_D41t88AfIHXgoQAv5x5mDaMlncjltjh6b6ZrhVnyDnGodFfZ_gGJ4KsunWiYbcoW0lRJNF3ukvy7GsSOgOu6W8B1mwK0b0kwkAAAAAV7mUmMA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
