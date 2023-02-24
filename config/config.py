@@ -21,7 +21,7 @@ API_ID = int(getenv("API_ID", "29705318"))
 API_HASH = getenv("API_HASH", "3e2781d669267ba9165147f70110cc4e")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "5767640696:AAGipgzf1fDYUsz6Vi-x3HBsYRKAofu0tqY")
+BOT_TOKEN = getenv("BOT_TOKEN", "6167924034:AAEOIsj_GWzERj_grNxNwPfRIcCJBgsvsbk")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://moon:music@cluster0.6dpesyn.mongodb.net/?retryWrites=true&w=majority")
@@ -37,10 +37,10 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001829582316"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001673189103"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Amazon Music")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Gamer Music")
 
 # Your User ID.
 OWNER_ID = list(
@@ -56,7 +56,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/NomoreLakshya/MooN",
+    "https://github.com/NomoreLakshya/Bgt",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -65,10 +65,10 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/SWAG_BOTS"
+    "SUPPORT_CHANNEL", "https://t.me/Quiz_Room_Adda"
 )  # Example:- https://t.me/TheYukki
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/SWAG_HOUSE_CHAT"
+    "SUPPORT_GROUP", "https://t.me/Goal_Achievers_xD"
 )  # Example:- https://t.me/YukkiSupport
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
@@ -138,7 +138,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 SET_CMDS = getenv("SET_CMDS", False)
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", "BQBzRBXX69D-2z-cJLG6Wb5FLIilOehSpiEZlH5wo8TUQdglU4K0aMAfQcAx_5uCt86FRpmgqUOQoi9BwHAwMchcCpihtb7w7rNquMIi1mXJpoDQ2M3UuUZV98n0VChNQV89SgM5EZwXEFVpOuiL1UdLWE-2D0gc5Sw1sU5_xfiwWLPoK6OJhD-rXiDxnDg-JVT5oTzW3JLwmsmW-LfVKQHgaQDkNr2YT4cH0XSRHaEP-4R8AmD2rtiz6anqwpP8qR4oc9rrPabtlGjbJsmPO-0eH3lb5MsfsWM3bfuq9GwlPnr-Rcqk7gUPU9nhkGrnmfawUEFV8UjKfJ1IIcLi0BoLAAAAAWhQT_oA")
+STRING1 = getenv("STRING_SESSION", "BQABK6yycBizIdS_Vxvd-ebB5nq5t7GmfSkZ_laUGXejrEcyALzjOML8lkvKZ91uxugs_FVoOlKbRw_8ckwXKrirRwh6c0OSoOTmS2h0gWhCZKl10DuPjF8RmOo4_BfBapt3cKlbdK-znK00bueIroT4Jxur6oRxQ6RD0DliQEGnFt2w7fY4OPDrG5RmV_2L35WOU4U5YwyiATSd4w_94IdhHqyVWyulCBWSMnuYGsjY_CWNglZ0DBfmRinUc-BJDfTXQMUZNPlS0SREknmyVvz_BPGlvR4m-YdwIRpuAWQI6MBjvjQ2hsxze6e5dpRcHh-dxuDpfILn1IHwDLnXtrA9AAAAATfsGMcA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
