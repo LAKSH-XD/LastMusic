@@ -17,14 +17,14 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", "29705318"))
-API_HASH = getenv("API_HASH", "3e2781d669267ba9165147f70110cc4e")
+API_ID = int(getenv("API_ID", "24180963"))
+API_HASH = getenv("API_HASH", "c30c9ba54b9950479f091a28aedfdaaf")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "6167924034:AAEOIsj_GWzERj_grNxNwPfRIcCJBgsvsbk")
+BOT_TOKEN = getenv("BOT_TOKEN", "5927178652:AAElUkbyJbRuAeKmbD8d7S663-tRKPjWczo")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://gamer:bhai@cluster0.6jswo45.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://lasthu:music@cluster0.jdfchik.mongodb.net/?retryWrites=true&w=majority")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
@@ -37,14 +37,14 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001673189103"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001869998098"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Gamer Music")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Ishani Music")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "5186313294").split())
+    map(int, getenv("OWNER_ID", "6079217348").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -56,7 +56,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/NomoreLakshya/Bgt",
+    "https://github.com/NomoreLakshya/LastMusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -65,10 +65,10 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/Quiz_Room_Adda"
+    "SUPPORT_CHANNEL", "https://t.me/SWAG_BOTS"
 )  # Example:- https://t.me/TheYukki
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/Goal_Achievers_xD"
+    "SUPPORT_GROUP", "https://t.me/worldsecratelovegroup"
 )  # Example:- https://t.me/YukkiSupport
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
@@ -138,7 +138,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 SET_CMDS = getenv("SET_CMDS", False)
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", "BQABK6yycBizIdS_Vxvd-ebB5nq5t7GmfSkZ_laUGXejrEcyALzjOML8lkvKZ91uxugs_FVoOlKbRw_8ckwXKrirRwh6c0OSoOTmS2h0gWhCZKl10DuPjF8RmOo4_BfBapt3cKlbdK-znK00bueIroT4Jxur6oRxQ6RD0DliQEGnFt2w7fY4OPDrG5RmV_2L35WOU4U5YwyiATSd4w_94IdhHqyVWyulCBWSMnuYGsjY_CWNglZ0DBfmRinUc-BJDfTXQMUZNPlS0SREknmyVvz_BPGlvR4m-YdwIRpuAWQI6MBjvjQ2hsxze6e5dpRcHh-dxuDpfILn1IHwDLnXtrA9AAAAATfsGMcA")
+STRING1 = getenv("STRING_SESSION", "BQCfPQkazgYV9NnkZyWgTy2mYMiym1gGlYeHzCqghDFO0Z7337aFTokjqTqVF678PYMJerrarKoBARv6MR6866-UWKH2TVsyr-NmePE9b-54QQYKzKeYRzb-uRWdKKUWiX7HL7yIcOcmJZ2T_0YCKUKupqGiS_pQGhQL8JUkddlXwZF1KilIwQtmMrtgLW3Z-LCox9ko7GzE2UlVW9EaEABzGyVj19z57SFDP8dUvZ177rxhtKLGBQ2rl4bbMOJmbX8_leZIN7yJqLLnyuKKrM5UoQvqTQDeEigpKTkn2A0yX7WNyUyzYe80_o9XA-glZtiSD1OwF7PTLU4B_tQC1GbWAAAAAVs0zhYA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -168,11 +168,11 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/1fb639209d79dc56db506.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/ca7bb1880d324c1e9f778.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/1fb639209d79dc56db506.jpg",
+    "https://te.legra.ph/file/ca7bb1880d324c1e9f778.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
