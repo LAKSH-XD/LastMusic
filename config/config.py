@@ -21,7 +21,7 @@ API_ID = int(getenv("API_ID", "29705318"))
 API_HASH = getenv("API_HASH", "3e2781d669267ba9165147f70110cc4e")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "6299367094:AAEVHlgmKPbslEm2fpQc0NbPkSegoR_v2q4")
+BOT_TOKEN = getenv("BOT_TOKEN", "5767640696:AAGipgzf1fDYUsz6Vi-x3HBsYRKAofu0tqY")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://moon:music@cluster0.6dpesyn.mongodb.net/?retryWrites=true&w=majority")
@@ -37,14 +37,14 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001615104496"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001829582316"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Moon Music")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Amazon Music")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "5776889746").split())
+    map(int, getenv("OWNER_ID", "5676039265").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -65,10 +65,10 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/ScaryNetwork"
+    "SUPPORT_CHANNEL", "https://t.me/SWAG_BOTS"
 )  # Example:- https://t.me/TheYukki
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/Chat_ixz"
+    "SUPPORT_GROUP", "https://t.me/SWAG_HOUSE_CHAT"
 )  # Example:- https://t.me/YukkiSupport
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
@@ -100,7 +100,7 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "3"))
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/NomoreLakshya/MooN")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/NomoreLakshya")
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
@@ -138,7 +138,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 SET_CMDS = getenv("SET_CMDS", False)
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", "AQAGv23fW2Y138e5emhT1KLWsXjcMDIBUg1b1i6kMH8NgnQ-vDJDcrhTeNIWRZonF5jGoZsLW6grLcst1nUmRJZ1KU9zxWxgLT6FglBvsvnl-BEIo-Q7e7giA0iUgkMoI9OA1DV_RYW6YHlexOSkdBuOFjS3aMo9gXIlFzcn_cSJp5LKqzy-4XchbLjSibh3Jmg2cC9KVEy5UOt7wRocHcEuGJqAW6p7AV919CCVj-9Cu8VDid_eBE_D41t88AfIHXgoQAv5x5mDaMlncjltjh6b6ZrhVnyDnGodFfZ_gGJ4KsunWiYbcoW0lRJNF3ukvy7GsSOgOu6W8B1mwK0b0kwkAAAAAV7mUmMA")
+STRING1 = getenv("STRING_SESSION", "BQBzRBXX69D-2z-cJLG6Wb5FLIilOehSpiEZlH5wo8TUQdglU4K0aMAfQcAx_5uCt86FRpmgqUOQoi9BwHAwMchcCpihtb7w7rNquMIi1mXJpoDQ2M3UuUZV98n0VChNQV89SgM5EZwXEFVpOuiL1UdLWE-2D0gc5Sw1sU5_xfiwWLPoK6OJhD-rXiDxnDg-JVT5oTzW3JLwmsmW-LfVKQHgaQDkNr2YT4cH0XSRHaEP-4R8AmD2rtiz6anqwpP8qR4oc9rrPabtlGjbJsmPO-0eH3lb5MsfsWM3bfuq9GwlPnr-Rcqk7gUPU9nhkGrnmfawUEFV8UjKfJ1IIcLi0BoLAAAAAWhQT_oA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
